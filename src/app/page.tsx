@@ -1,7 +1,9 @@
+import AddLetter from "@/components/AddLetter";
+
 export default function Home(){
   return(
-    <div>
-      <h1>hello World!</h1>
+    <div className="w-full h-screen flex justify-center items-center">
+      <AddLetter />
     </div>
   )
 }
